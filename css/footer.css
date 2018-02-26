@@ -1,0 +1,12 @@
+.footerbody{
+background-image:url("background/header.jpg");
+background-size:80%;
+top:0%;
+left:0%;
+width:100%;
+}
+
+#copyright{
+color: white;
+text-align:center;
+}

@@ -1,0 +1,76 @@
+.main_body{
+	position:absolute;
+	max-width:100%;
+	max-height:100%;
+	top:30%;
+}
+.main_body .view-entries{
+	margin:auto;
+	border: 2px solid black;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	border-top:none;
+	left:55%;
+	position:relative;
+	padding:30px 60px;
+	width:500px;
+}
+.main_body .profile-details{
+	margin:auto;
+	top:0%;
+	position:absolute;
+	width:310px;
+	min-height:600px;
+}
+.main_body .view-entries .table{
+	position:relative;
+	top: 30%;
+}
+
+.main_body .profile-details .profile-img{
+	position:relative;
+	text-align:center;
+	margin:auto;
+}
+.main_body .profile-details .img-circle{
+	border-radius: 50%;
+	padding: 5px;
+	width:250px;
+	max-width:100%;
+	height:auto;
+	display:block;
+}
+.main_body .profile-details .profile-personal{
+	position:relative;
+	text-align:center;
+	margin:auto;
+}
+
+table {
+    width:100%;
+}
+
+table, th , td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left; 
+}
+
+table tr:nth-child(odd) {
+    background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+    background-color: #ffffff;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+a:hover{
+	color:#ff3333;
+	text-decoration:none;
+}
